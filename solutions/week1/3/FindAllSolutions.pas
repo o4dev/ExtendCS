@@ -1,5 +1,8 @@
 program FindAllSolutions;
 
+uses
+  SysUtils;
+
 var
   a, b, c, x, y: Integer; // correspond to values in ax + by = c
   Solutions: Boolean = False;

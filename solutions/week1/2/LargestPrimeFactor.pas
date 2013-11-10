@@ -1,5 +1,8 @@
 program LargestPrimeFactor;
 
+uses
+  SysUtils;
+
 function IsPrime(Prime: Integer): Boolean;
 // Determine if a number is prime by brute force.
 // Test if any number from 2 up to a half of it is a factor.
