@@ -31,7 +31,7 @@ begin
     x := 1; // same reason as y
     while x < c do // again, same reason as y
     begin
-      if ((a * x) + b * y) = c then // ax + by = c ?
+      if ((a * x) + (b * y)) = c then // ax + by = c ?
       begin
         if not Solutions then
           Solutions := True;
