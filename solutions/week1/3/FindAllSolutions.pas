@@ -26,7 +26,7 @@ begin
   // Start at one because solutions must be positive integers.
   while y < c do
   // Because solutions to x and y must be positive
-  // neither can not be greater than c.
+  // neither can be greater than c.
   begin
     x := 1; // same reason as y
     while x < c do // again, same reason as y
