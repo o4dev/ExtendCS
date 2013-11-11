@@ -9,7 +9,7 @@ var
 
 begin
 
-  Writeln('Please enter the values for a and b in ax + by = c:');
+  Writeln('Please enter the values for a, b and c in ax + by = c:');
   Write('a = ');
   Readln(a);
   Write('b = ');
