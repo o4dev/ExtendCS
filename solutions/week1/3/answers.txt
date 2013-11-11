@@ -32,7 +32,7 @@ ii)
 	x = 1, y = 6   
 
 iii)
-	let d = HFC(a, b)
+	let d = HCF(a, b)
         let n[a] = a/d
         let n[b] = b/d
 	
@@ -42,5 +42,5 @@ iii)
 
         - therefore c MUST be a multiple of d
 	- therefore c MUST be a multiple of the highest common factor of a and b
-	- therefore if c is not a multiple of HFC(a, b) then ax+by=c has no solutions
+	- therefore if c is not a multiple of HCF(a, b) then ax+by=c has no solutions
 
